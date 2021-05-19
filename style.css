@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 18px;
+    font-family: 'Pattaya', sans-serif;
+}
+body{ 
+    /* Properties Of Body Background Image */
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.left{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    /* border: 2px solid red; */
+    padding: 10px;
+    width: 123px;
+}
+.left h3{
+    margin-left: 10px;
+}
+.left img{
+    width: 92px;    
+    filter: invert(100%);
+    margin-left: 10px;
+    justify-content: center;
+    height: 52px;
+}
+.right{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /* border: 2px solid yellow; */
+    padding: 10px;
+    height: 52px;
+    width: 150px;
+}
+.right h3{
+    padding: 13px 10px 10px 30px;
+    color: #fadfdf;
+    font-weight: bolder;
+}
